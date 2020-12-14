@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragmentUruneGit"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/urunIsmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:text="Ninja Ayakkabı"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/urunAciklama"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tekstil Su Geçirmez membran ve destek süngeriyle desteklenmiş hava alır."
+                android:textColor="#8c8c8c"
+                android:layout_marginLeft="11.7dp"
+                android:layout_marginRight="11.7dp"
+                android:layout_marginBottom="12dp"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:id="@+id/urunResim"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sleepbag"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    //Fiyat-kısmı
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/indirimfiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ustucizili"
+            android:foreground="@drawable/ustucizili"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@id/gercekfiyat"
+            android:text="249.99 TL"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/gercekfiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:text="149.99 TL"
+            android:textColor="#ef4e33"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

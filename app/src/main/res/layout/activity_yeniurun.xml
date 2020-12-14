@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="never">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:orientation="vertical">
+        //Baslik-icin-layout-include-ettim
+        <include layout="@layout/fragment_baslik"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yeni_urun_isim_baslik"
+            android:textSize="16sp"
+            android:textColor="#9b9b9b"/>
+        <EditText
+            android:id="@+id/editUrunIsim"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/yeni_urun_isim"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:autofillHints="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/yeni_urun_aciklama_baslik"
+            android:textSize="16sp"
+            android:textColor="#9b9b9b"/>
+        <EditText
+            android:id="@+id/editUrunAciklama"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/yeni_urun_aciklamasi"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:autofillHints="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/yeni_urun_eski_fiyat_baslik"
+            android:textSize="16sp"
+            android:textColor="#9b9b9b"/>
+        <EditText
+            android:id="@+id/editUrunEskiFiyat"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/yeni_urun_eski_fiyat"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:autofillHints="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/yeni_urun_yeni_fiyat_baslik"
+            android:textSize="16sp"
+            android:textColor="#9b9b9b"/>
+        <EditText
+            android:id="@+id/editUrunYeniFiyat"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="@string/yeni_urun_yeni_fiyat"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:autofillHints="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/yeni_urun_resmi"
+            android:textSize="16sp"
+            android:textColor="#9b9b9b"/>
+        <ImageView
+            android:id="@+id/editUrunResim"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/ic_add"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
