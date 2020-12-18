@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "224886694362",
+    "project_id": "myar-android",
+    "storage_bucket": "myar-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224886694362:android:9372da822daf69656fa0e3",
+        "android_client_info": {
+          "package_name": "com.mobil.my_a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224886694362-62ph16b7093qg2golbk5vha9c690iga9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobil.my_a",
+            "certificate_hash": "89955c77a54a5d8f1b95b0e7636705561c336d5d"
+          }
+        },
+        {
+          "client_id": "224886694362-fqkqi51asa9i9dsaise3p86gofqcvi3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFYqGigBpryoQJ8w1eaQXw9Ll6xKLwWkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224886694362-fqkqi51asa9i9dsaise3p86gofqcvi3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

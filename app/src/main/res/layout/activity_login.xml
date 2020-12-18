@@ -2,14 +2,16 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/girisEkraniScroll"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:overScrollMode="never">
 
     <LinearLayout
+        android:id="@+id/linearlayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:paddingStart="20dp"
         android:paddingTop="100dp"
         android:paddingEnd="20dp"
@@ -40,18 +42,20 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+
         <EditText
-            android:id="@+id/editGirisAdi"
-            style="@style/EditTextStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="10dp"
-            android:autofillHints="Kullanıcı Adı"
-            android:hint="@string/giris_kullanici_adi"
-            android:inputType="textEmailAddress"
-            android:singleLine="true" />
+                android:id="@+id/editGirisAdi"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints="Kullanıcı Adı"
+                android:hint="@string/giris_kullanici_adi"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
 
         <EditText
             android:id="@+id/editGirisSifre"
@@ -59,12 +63,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
             android:autofillHints="Şifre"
             android:hint="@string/giris_sifre"
             android:inputType="textPassword"
             android:singleLine="true" />
+
 
         <Button
             android:id="@+id/girisButon"

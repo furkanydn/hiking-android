@@ -89,22 +89,23 @@
             android:inputType="textEmailAddress"
             android:singleLine="true"
             android:autofillHints="" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/yeni_urun_resmi"
+            android:text="@string/urun_resim"
             android:textSize="16sp"
             android:textColor="#9b9b9b"/>
         <ImageView
             android:id="@+id/editUrunResim"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:background="@drawable/ic_add"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_add"
             android:clickable="true"
             android:focusable="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="2dp"/>
+            android:layout_gravity="center"/>
 
     </LinearLayout>
     </LinearLayout>

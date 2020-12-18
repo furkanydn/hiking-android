@@ -6,20 +6,20 @@ import android.view.View;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
-import static java.lang.Integer.parseInt;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView yeni_urun = (ImageView) findViewById(R.id.main_urun_ekle);
+    private ImageView newItem;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        newItem = (ImageView) findViewById(R.id.mainAddItem);
 
-        yeni_urun.setOnClickListener(new View.OnClickListener() {
+        newItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gecis = new Intent(MainActivity.this,NewUrunActivity.class);
+                Intent gecis = new Intent(MainActivity.this, NewUrunActivity.class);
                 startActivity(gecis);
             }
         });

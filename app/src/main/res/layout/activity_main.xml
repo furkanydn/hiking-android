@@ -26,7 +26,7 @@
                 android:textSize="24sp"
                 android:textColor="#4a4a4a"/>
             <ImageView
-                android:id="@+id/main_urun_ekle"
+                android:id="@+id/mainAddItem"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="24dp"

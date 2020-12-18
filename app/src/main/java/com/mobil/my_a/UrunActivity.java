@@ -2,7 +2,6 @@ package com.mobil.my_a;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.telephony.mbms.MbmsErrors;
 import android.view.View;
 import android.widget.ImageView;
 

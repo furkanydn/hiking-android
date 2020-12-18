@@ -44,4 +44,15 @@
     <string name="hata_resmi">Hata Resmi</string>
     <string name="ters_giden_bir_seyler">Ters giden birşeyler oldu</string>
     <string name="tamam">Tamam</string>
+    <string name="yanlis_mail">Yanlış paremetre girildi</string>
+    <string name="bos_mail">Az çok diyelim boş geçmeyelim!</string>
+    <string name="bos_sifre">Şifresiz giriş yapılamaz!</string>
+    <string name="hatali_mail">Giriş yapılamadı</string>
+    <string name="register_mail_hata">Email alanı boş bırakılamaz</string>
+    <string name="register_sifre_hata">Şifre alanı hatası</string>
+    <string name="register_sifre_ayni_hata">Şifreler uyuşmuyor</string>
+    <string name="register_bos_alan">Boş alan bırakmayalım!</string>
+    <string name="register_kayit_oldu">Kaydınız başarıyla oluşturuldu.</string>
+    <string name="register_kayit_hata">Kaydınız oluşturulamadı.</string>
+    <string name="urun_resim">Ürün Resmi - Resmin üzerine tıklayın!</string>
 </resources>
